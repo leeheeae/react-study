@@ -4,6 +4,8 @@ import Say from './Say';
 import EventPractice from './EventPractice';
 import EventPractice2 from './EventPractice2';
 import EventPractice3 from './EventPractice3';
+import EventPractice4 from './EventPractice4';
+import ValidationSample from './ValidationSample';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <EventPractice />
       <EventPractice2 />
       <EventPractice3 />
+      <EventPractice4 />
+      <ValidationSample />
     </>
   );
 };
