@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import SassComponent from './SassComponent';
+import React from 'react';
+import CSSModule from './CSSModule';
 
 const App = () => {
   return (
     <div>
-      <SassComponent />
+      <CSSModule />
     </div>
   );
 };
