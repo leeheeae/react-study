@@ -17,7 +17,7 @@ const Profiles = () => {
 
       <Route
         path="/profiles"
-        exact
+        exact="true"
         render={() => {
           <div>사용자를 선택해주세요.</div>;
         }}

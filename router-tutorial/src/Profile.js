@@ -1,4 +1,6 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
+import WithRouterSample from './WithRouterSample';
 
 const data = {
   leeheeae: {
@@ -24,6 +26,7 @@ const Profile = ({ match }) => {
         {username}({profile.name})
       </h3>
       <p>{profile.desciption}</p>
+      <WithRouterSample />
     </div>
   );
 };
