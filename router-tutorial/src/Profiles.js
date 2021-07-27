@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import Profile from './Profile';
 
 const Profiles = () => {
@@ -17,12 +17,10 @@ const Profiles = () => {
 
       <Route
         path="/profiles"
-        exact="true"
-        render={() => {
-          <div>사용자를 선택해주세요.</div>;
-        }}
+        exact
+        render={() => <div>사용자를 선택해주세요</div>}
       />
-      <Route path="profiles/:username" component={Profile} />
+      <Route path="/profiles/:username" component={Profile} />
     </div>
   );
 };

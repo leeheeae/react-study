@@ -31,4 +31,4 @@ const Profile = ({ match }) => {
   );
 };
 
-export default Profile;
+export default withRouter(Profile);
